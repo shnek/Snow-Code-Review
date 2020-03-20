@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_297044_code_rvw.CodeReview</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CodeReview</name>
+        <script><![CDATA[var CodeReview = Class.create();
+CodeReview.prototype = {
+    initialize: function() {
+        this.result = {};
+    },
+
+    run: function(current) {
+		
+        var updateSet = new GlideRecord("sys_update_set");
+        updateSet.get(current.getValue("update_set"));
+
+        var rule = new GlideRecord("x_297044_code_rvw_rules");
+        rule.addQuery("active", true);
+        rule.query();
+
+        while (rule.next()) {
+            if (rule.getValue("applicable_to") == "sys_update_xml") {
+                this._runCustomerUpdateReview(rule, updateSet);
+            } else if (rule.getValue("applicable_to") == "sys_update_set") {
+                this._runUpdateSetReview(rule, updateSet);
+            }
+        }
+
+        current.setValue("result", this._calculateResult(this.result), {
+            'current': current
+        });
+    },
+
+    _runCustomerUpdateReview: function(rule, updateSet) {
+		var customerUpdate = new GlideRecord("sys_update_xml");
+        var condition = rule.getValue("condition");
+
+        customerUpdate.addEncodedQuery(condition);
+        customerUpdate.addQuery("update_set", updateSet.getUniqueValue());
+        customerUpdate.query();
+
+        while (customerUpdate.next()) {
+            if (rule.getValue("advanced") != "false" && condition != null) {
+                var file = new GlideRecord("sys_metadata");
+                file.addQuery("sys_update_name", customerUpdate.name.toString());
+                file.orderByDesc("sys_updated_on");
+                file.setLimit(1);
+                file.query();
+                if (file.next()) {
+					this._createProblem(rule, customerUpdate.getValue("sys_id"), file.getUniqueValue());
+                } else {
+					this._createProblem(rule, customerUpdate.getValue("sys_id"));
+				}
+            } else {
+                var code = rule.getValue("advanced_condition");
+                var evaluator = new GlideScopedEvaluator();
+                evaluator.putVariable("current", customerUpdate);
+                var codeResult = evaluator.evaluateScript(rule, 'advanced_condition');
+                if (codeResult == true) {
+					this._createProblem(rule, customerUpdate.getValue("sys_id"));
+                }
+            }
+        }
+
+    },
+
+    _runUpdateSetReview: function(rule, updateSet) {
+		
+        var condition = rule.getValue("condition");
+        condition = condition + "^sys_id=" + updateSet.getUniqueValue();
+		
+        var customerUpdateSet = new GlideRecord("sys_update_set");
+        customerUpdateSet.addEncodedQuery(condition);
+        customerUpdateSet.query();
+		
+        if (customerUpdateSet.next()) {
+			this._createProblem(rule);
+        }
+    },
+
+    _createProblem: function(rule, reference, record) {
+		var level = rule.getValue("level");
+		
+		var problem = new GlideRecord("x_297044_code_rvw_review_log");
+        problem.initialize();
+        problem.setValue("rule", rule.getUniqueValue());
+        problem.setValue("review_run", current.getUniqueValue());
+		if(reference) problem.setValue("reference", reference);
+		if(record) problem.setValue("related_record", record);
+        problem.insert();
+		
+        if (this.result[level] != null) {
+            this.result[level]++;
+        } else {
+            this.result[level] = 1;
+        }
+    },
+
+    _calculateResult: function(result) {
+        if (result["1"] != null) return "1";
+        if (result["2"] != null) return "2";
+        if (result["3"] > 5) return "2";
+        if (result["3"] != null) return "3";
+        if (result["4"] != null) return "4";
+        else return "5";
+    },
+
+    type: 'CodeReview'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:20:28</sys_created_on>
+        <sys_id>7eda0ae6076784102c6ef4218c1ed0d7</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>CodeReview</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_update_name>sys_script_include_7eda0ae6076784102c6ef4218c1ed0d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 10:43:37</sys_updated_on>
+    </sys_script_include>
+</record_update>

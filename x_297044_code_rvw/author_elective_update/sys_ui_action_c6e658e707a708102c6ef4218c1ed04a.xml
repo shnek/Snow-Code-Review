@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>Submit</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Hiding submit action</comments>
+        <condition>false</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit</name>
+        <onclick/>
+        <order>100</order>
+        <script/>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>false</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:17:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6e658e707a708102c6ef4218c1ed04a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_update_name>sys_ui_action_c6e658e707a708102c6ef4218c1ed04a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:19:38</sys_updated_on>
+        <table>x_297044_code_rvw_review_runs</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</application>
+        <file_path/>
+        <instance_id>40a03ae3dbc83740b847ac44d496192a</instance_id>
+        <instance_name>dev74768</instance_name>
+        <name>sys_ui_action_c6e658e707a708102c6ef4218c1ed04a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;Submit&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;Hiding submit action&lt;/comments&gt;&lt;condition&gt;false&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Submit&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;false&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-20 09:17:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c6e658e707a708102c6ef4218c1ed04a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Code Review" source="x_297044_code_rvw"&gt;3d0ae16e07e384102c6ef4218c1ed07a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Code Review"&gt;3d0ae16e07e384102c6ef4218c1ed07a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_c6e658e707a708102c6ef4218c1ed04a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-20 09:19:38&lt;/sys_updated_on&gt;&lt;table&gt;x_297044_code_rvw_review_runs&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1302004578</payload_hash>
+        <record_name>Submit</record_name>
+        <reverted_from/>
+        <source>b50ae16e07e384102c6ef4218c1ed07c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:19:38</sys_created_on>
+        <sys_id>4087102b07a708102c6ef4218c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f73da8c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:19:38</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>c887102bf6a70810506bcfb48d8f854a</update_guid>
+        <update_guid_history>c887102bf6a70810506bcfb48d8f854a:1302004578,9e1718e722a708107b540497857685b4:-610156754,460798e7e9a70810e87533c3914da184:1362798087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:20:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>4d5944ce456b498cb0c652115383e210</sys_id>
+        <sys_metadata>c6e658e707a708102c6ef4218c1ed04a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_parent display_value="Review Results">b3ec752e072784102c6ef4218c1ed0af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_scope_delete display_value="">21b88edb4998419b99e4e906bb283611</sys_scope_delete>
+        <sys_update_name>sys_ui_action_c6e658e707a708102c6ef4218c1ed04a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_c6e658e707a708102c6ef4218c1ed04a">4087102b07a708102c6ef4218c1ed04b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:20:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

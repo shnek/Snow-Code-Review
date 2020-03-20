@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Review Results" max_length="40" name="x_297044_code_rvw_review_runs" sizeclass="47" type="collection">
+        <element choice="3" label="Result" max_length="40" name="result" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awful" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Bad" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Moderate" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Good" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Awesome" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element display="true" label="Update Set" max_length="32" name="update_set" reference="sys_update_set" type="reference"/>
+        <index name="index">
+            <element name="update_set"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Code Review Rules" max_length="40" name="x_297044_code_rvw_rules" sizeclass="5" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Advanced" max_length="40" name="advanced" type="boolean"/>
+        <element label="Advanced Condition" max_length="8000" name="advanced_condition" type="script"/>
+        <element choice="3" label="Applicable to" mandatory="true" max_length="40" name="applicable_to" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Batch" value="batch"/>
+                <element inactive_on_update="false" label="Customer Update" value="sys_update_xml"/>
+                <element inactive_on_update="false" label="Update Set" value="sys_update_set"/>
+            </choice>
+        </element>
+        <element dependent="applicable_to" dependent_on_field="applicable_to" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+        <element label="Description" max_length="4096" name="description" type="string_full_utf8"/>
+        <element choice="3" label="Level" mandatory="true" max_length="40" name="level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Moderate" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Informational" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element hint="Suggested resolution for the problem found in this rule." label="Resolution" max_length="4096" name="resolution" type="string"/>
+    </element>
+</database>

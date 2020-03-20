@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="applicable_to" table="x_297044_code_rvw_rules" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicable_to</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Batch</label>
+            <language>en</language>
+            <name>x_297044_code_rvw_rules</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-17 12:51:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b02b69ae07e384102c6ef4218c1ed065</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-20 09:45:29</sys_updated_on>
+            <value>batch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicable_to</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update Set</label>
+            <language>en</language>
+            <name>x_297044_code_rvw_rules</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-17 12:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea1be5ae07e384102c6ef4218c1ed016</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-17 13:01:03</sys_updated_on>
+            <value>sys_update_set</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicable_to</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Update</label>
+            <language>en</language>
+            <name>x_297044_code_rvw_rules</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-17 12:50:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c1b69ae07e384102c6ef4218c1ed070</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-17 13:00:48</sys_updated_on>
+            <value>sys_update_xml</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>applicable_to</element>
+            <name>x_297044_code_rvw_rules</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-17 12:50:58</sys_created_on>
+            <sys_id>e61ba5ae07e384102c6ef4218c1ed0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>applicable_to</sys_name>
+            <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+            <sys_update_name>sys_choice_x_297044_code_rvw_rules_applicable_to</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-17 12:50:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

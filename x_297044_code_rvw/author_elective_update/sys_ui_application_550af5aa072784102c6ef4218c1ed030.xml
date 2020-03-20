@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Review Log</name>
+        <order/>
+        <roles>x_297044_code_rvw.review_log_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:56:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>550af5aa072784102c6ef4218c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Log</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_update_name>sys_ui_application_550af5aa072784102c6ef4218c1ed030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:56:09</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</application>
+        <file_path/>
+        <instance_id>40a03ae3dbc83740b847ac44d496192a</instance_id>
+        <instance_name>dev74768</instance_name>
+        <name>sys_ui_application_550af5aa072784102c6ef4218c1ed030</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Review Log</name><order/><roles>x_297044_code_rvw.review_log_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 13:56:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>550af5aa072784102c6ef4218c1ed030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Review Log</sys_name><sys_overrides/><sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package><sys_policy/><sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope><sys_update_name>sys_ui_application_550af5aa072784102c6ef4218c1ed030</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 13:56:09</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>1142518547</payload_hash>
+        <record_name>Review Log</record_name>
+        <reverted_from/>
+        <source>b50ae16e07e384102c6ef4218c1ed07c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:56:09</sys_created_on>
+        <sys_id>950af5aa072784102c6ef4218c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170e8c7be720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:56:09</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>dd0af5aa112784107e1660569f88a731</update_guid>
+        <update_guid_history>dd0af5aa112784107e1660569f88a731:1142518547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:57:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>4f2346f18a2a4e808f4265b77c59d090</sys_id>
+        <sys_metadata>550af5aa072784102c6ef4218c1ed030</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Log</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_scope_delete display_value="">21b88edb4998419b99e4e906bb283611</sys_scope_delete>
+        <sys_update_name>sys_ui_application_550af5aa072784102c6ef4218c1ed030</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_550af5aa072784102c6ef4218c1ed030">950af5aa072784102c6ef4218c1ed032</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:57:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

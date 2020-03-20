@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Review Logs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_297044_code_rvw.review_log_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:56:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d0af5aa072784102c6ef4218c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Logs</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_update_name>sys_ui_module_5d0af5aa072784102c6ef4218c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:56:09</sys_updated_on>
+        <table>x_297044_code_rvw_review_log</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</application>
+        <file_path/>
+        <instance_id>40a03ae3dbc83740b847ac44d496192a</instance_id>
+        <instance_name>dev74768</instance_name>
+        <name>sys_ui_module_5d0af5aa072784102c6ef4218c1ed032</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Review Logs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_297044_code_rvw.review_log_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 13:56:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5d0af5aa072784102c6ef4218c1ed032</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Review Logs</sys_name><sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package><sys_policy/><sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope><sys_update_name>sys_ui_module_5d0af5aa072784102c6ef4218c1ed032</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 13:56:09</sys_updated_on><table>x_297044_code_rvw_review_log</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-547283921</payload_hash>
+        <record_name>Review Logs</record_name>
+        <reverted_from/>
+        <source>b50ae16e07e384102c6ef4218c1ed07c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:57:37</sys_created_on>
+        <sys_id>4b5a75aa072784102c6ef4218c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170e8c918490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:57:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5d0af5aa6d27841048e6a7560f1fd434</update_guid>
+        <update_guid_history>5d0af5aa6d27841048e6a7560f1fd434:1815782862,5d0af5aa6d27841048e6a7560f1fd434:1815782862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 13:57:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>5411b13c1a5b487b9799ffa3d5642939</sys_id>
+        <sys_metadata>5d0af5aa072784102c6ef4218c1ed032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Logs</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_scope_delete display_value="">21b88edb4998419b99e4e906bb283611</sys_scope_delete>
+        <sys_update_name>sys_ui_module_5d0af5aa072784102c6ef4218c1ed032</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_5d0af5aa072784102c6ef4218c1ed032">4b5a75aa072784102c6ef4218c1ed04c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:57:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

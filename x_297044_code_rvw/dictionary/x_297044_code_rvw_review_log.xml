@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Review Log" max_length="40" name="x_297044_code_rvw_review_log" sizeclass="76" type="collection">
+        <element label="Reference" max_length="32" name="reference" read_only="true" reference="sys_update_xml" type="reference"/>
+        <element label="Related Record" max_length="32" name="related_record" reference="sys_metadata" type="reference"/>
+        <element label="Review Run" max_length="32" name="review_run" reference="x_297044_code_rvw_review_runs" type="reference"/>
+        <element label="Rule" max_length="32" name="rule" read_only="true" reference="x_297044_code_rvw_rules" type="reference"/>
+        <index name="index">
+            <element name="reference"/>
+        </index>
+        <index name="index2">
+            <element name="related_record"/>
+        </index>
+        <index name="index3">
+            <element name="review_run"/>
+        </index>
+        <index name="index4">
+            <element name="rule"/>
+        </index>
+    </element>
+</database>

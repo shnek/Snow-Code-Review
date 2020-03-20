@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>update_set</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:21:31</sys_created_on>
+        <sys_id>15e7d42b07a708102c6ef4218c1ed032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_set</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_15e7d42b07a708102c6ef4218c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:21:31</sys_updated_on>
+        <table>x_297044_code_rvw_review_runs</table>
+        <ui_policy display_value="Prevent updates of Update Set field">1ca78a26076784102c6ef4218c1ed06c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</application>
+        <file_path/>
+        <instance_id>40a03ae3dbc83740b847ac44d496192a</instance_id>
+        <instance_name>dev74768</instance_name>
+        <name>sys_ui_policy_action_15e7d42b07a708102c6ef4218c1ed032</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>update_set</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-20 09:21:31</sys_created_on><sys_id>15e7d42b07a708102c6ef4218c1ed032</sys_id><sys_mod_count>0</sys_mod_count><sys_name>update_set</sys_name><sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package><sys_policy/><sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope><sys_update_name>sys_ui_policy_action_15e7d42b07a708102c6ef4218c1ed032</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-20 09:21:31</sys_updated_on><table>x_297044_code_rvw_review_runs</table><ui_policy display_value="Prevent updates of Update Set field">1ca78a26076784102c6ef4218c1ed06c</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>710283090</payload_hash>
+        <record_name>update_set</record_name>
+        <reverted_from/>
+        <source>b50ae16e07e384102c6ef4218c1ed07c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:21:31</sys_created_on>
+        <sys_id>ffe7542b07a708102c6ef4218c1ed0c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f73f64500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:21:31</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>3be7542b73a708105705a90c247de8c3</update_guid>
+        <update_guid_history>3be7542b73a708105705a90c247de8c3:710283090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-20 09:30:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>03697a302fb94d66810188ed72bbe9b1</sys_id>
+        <sys_metadata>15e7d42b07a708102c6ef4218c1ed032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_set</sys_name>
+        <sys_package display_value="Code Review" source="x_297044_code_rvw">3d0ae16e07e384102c6ef4218c1ed07a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Code Review">3d0ae16e07e384102c6ef4218c1ed07a</sys_scope>
+        <sys_scope_delete display_value="">21b88edb4998419b99e4e906bb283611</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_15e7d42b07a708102c6ef4218c1ed032</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_15e7d42b07a708102c6ef4218c1ed032">ffe7542b07a708102c6ef4218c1ed0c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-20 09:30:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
